@@ -48,12 +48,12 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 78px;
+  line-height: 68px;
 }
 
 .weather-app-details {
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(30, 22, 22, 0.903);
   line-height: 24px;
   font-weight: 650;
@@ -72,7 +72,7 @@ main {
 }
 
 .weather-app-temperature {
-  font-size: 88px;
+  font-size: 68px;
   margin-left: 10px;
   font-weight: bold;
 }
