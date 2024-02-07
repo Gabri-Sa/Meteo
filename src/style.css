@@ -1,6 +1,6 @@
 body {
   background-color: #f9f7fe;
-  font-family: "EB Garamond", serif;
+  font-family: "Noto Serif", serif;
 }
 a {
   color: #885df1;
@@ -48,15 +48,15 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 78px;
-  line-height: 68px;
+  font-size: 88px;
+  line-height: 78px;
 }
 
 .weather-app-details {
-  font-size: 16px;
-  color: rgba(30, 22, 22, 0.903);
+  font-size: 14px;
+  color: rgba(19, 16, 16, 0.733);
   line-height: 24px;
-  font-weight: 650;
+  font-weight: 750;
 }
 .weather-app-details strong {
   color: #52a1f6;
