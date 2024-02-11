@@ -48,14 +48,14 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 88px;
-  line-height: 78px;
+  font-size: 98px;
+  line-height: 88px;
 }
 
 .weather-app-details {
   font-size: 14px;
   color: rgba(19, 16, 16, 0.733);
-  line-height: 24px;
+  line-height: 22px;
   font-weight: 750;
 }
 .weather-app-details strong {
@@ -80,6 +80,23 @@ main {
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecats-temperature-min {
+  opacity: 0.5px;
 }
 
 footer {
