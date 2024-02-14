@@ -81,8 +81,9 @@ main {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -92,7 +93,7 @@ main {
 .weather-forecast-icon {
   width: 88px;
   height: 88px;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 }
 

@@ -44,6 +44,7 @@ function formatDate(date) {
 function searchCity(city) {
   let apiKey = "a4cf7a5b0a77537beftcb4bo13d400ab";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(refreshWeather);
 }
 
 function handleSearchSubmit(event) {
@@ -71,7 +72,7 @@ function displayForecast(response) {
 
   response.data.daily.forEach(function (day, index) {
     if (index < 5) {
-      let forecastHtml =
+      forecastHtml =
         forecastHtml +
         `
 <div class="weather-forecast-day">
@@ -92,11 +93,10 @@ function displayForecast(response) {
   });
 
   let forecastElement = document.querySelector("#forecast");
-  forecastElement.innerHtml = forecastHtml;
+  forecastElement.innerHTML = forecastHtml;
 }
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Oxford");
-getForecast("Oxford");
