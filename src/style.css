@@ -47,9 +47,7 @@ main {
 }
 
 .weather-app-city {
-  margin: 0;
-  font-size: 98px;
-  line-height: 88px;
+  font-size: 100%;
 }
 
 .weather-app-details {
@@ -90,6 +88,12 @@ main {
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.6;
+}
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
